@@ -11,8 +11,44 @@ h1{
     font-size: 100px;
 }
 
+.navback{
+    background-color: #777;
+}
+
+.navbar .navbar-brand{
+    font-size:30px;
+    font-family: "metal mania";
+    transition: color 0.5s ease-in-out;
+    color: #f2ebeb;
+}
+
+.navbar .navbar-brand:hover{
+    color: red;
+}
+
+.navbar .nav-item .nav-link{
+    color:#f2ebeb;
+    font-family: "metal mania";
+    text-align: right;
+}
+
+.navbar .nav-item .nav-link:hover{
+    color: red;
+    transition: color 0.5s ease-in-out;
+}
+
+.navbar .navbar-toggler icon{
+    color:#f2ebeb;
+}
+
+
 h2{
-    color: blue;
+    color:#f2ebeb;
+    text-align: center;
+    font-family: "Roboto";
+    text-transform: capitalize;
+    margin-top: 15px;
+    background-color: #777;
 }
 
 h3{
@@ -31,8 +67,16 @@ h6{
     color: orange;
 }
 
+p{
+    letter-spacing: 3px;
+    padding: 20px;
+}
+
 .top-image{
-    background-image: url(/assets/img/band2.jpg);
+    background-image: url(/assets/img/band3.jpg);
+    height: 50vh;
+    background-size:cover;
+    width: 100vw ;
 }
 
 
@@ -56,8 +100,9 @@ margin-left: 30px;
 
 ul li i{
 color:  #f2ebeb;
+transition: color 0.5s ease-in-out;
 }
 
 ul li i:hover{
-    color: #c23c32;
+    color: red;
 }
