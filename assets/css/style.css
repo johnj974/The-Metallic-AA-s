@@ -7,6 +7,8 @@ body{
 
 h1{
     color: red;
+    font-family: "metal mania";
+    font-size: 100px;
 }
 
 h2{
@@ -29,6 +31,33 @@ h6{
     color: orange;
 }
 
+.top-image{
+    background-image: url(/assets/img/band2.jpg);
+}
+
+
 .center-image{
-    background-image: url(/assets/img/band.jpg);
+    background-image: url(/assets/img/ban.jpg);
+}
+
+.footer{
+background-color: #777;
+}
+
+ul{
+margin: 0 auto;
+}
+
+ul li{
+display: inline;
+font-size: 150%;
+margin-left: 30px;
+}
+
+ul li i{
+color:  #f2ebeb;
+}
+
+ul li i:hover{
+    color: #c23c32;
 }
