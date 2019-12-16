@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700&display=swap');
+
+p{
+    color: red;
+    font-family:"metal mania";
+}
+
+h1{
+    font-family:"Roboto";
+}
