@@ -13,14 +13,14 @@
 <!---------------------------------------------------------------------navbar-------------------------------------------------------------------------------------------------------->
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark navback">
-        <a class="navbar-brand" href="index.html">The Metallic AA's</a>
+        <a class="navbar-brand" href="tour.html">Tour Dates</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="tour.html">Tour Dates</a>
+                            <a class="nav-link" href="index.html">The Metallic AA's</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="merch.html">Merchandise</a>
@@ -29,14 +29,13 @@
                 </div>
     </nav>
 <!-----------------------------------------------------------------------------head------------------------------------------------------------------------------------------------->
-    <div class="container-fluid top-image-tour">
+    <div class="container-fluid top-image-tour ">
         <div class="row">
-            <div class="col">
-                <h1>Tour dates</h1>
+            <div class="col repo">
             </div>
         </div>
     </div>
- <!----------------------------------------------------------------------middle------------------------------------------------------------------------------------------------------>  
+ <!---------------------------------------------------------------------- tour dates------------------------------------------------------------------------------------------------------>  
     <div class="container-fluid center-image">
         <div class="row">
             <div class="col-lg-4 col-sm-12">
@@ -50,21 +49,21 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                 <img src="assets/img/seattle.jpg" class="d-block w-100" alt="city sky line">
-                                <div class="carousel-caption d-none d-md-block">
+                                <div class="carousel-caption d-none d-block">
                                     <h3>Seattle</h3>
                                     <p>04 January 2020</p>
                                 </div>
                                 </div>
                                 <div class="carousel-item">
                                 <img src="assets/img/sanfran.jpg" class="d-block w-100" alt="bridge">
-                                <div class="carousel-caption d-none d-md-block">
+                                <div class="carousel-caption d-none d-block">
                                     <h3>San Francisco</h3>
                                     <p>11 January 2020</p>
                                 </div>
                                 </div>
                                 <div class="carousel-item">
                                 <img src="assets/img/newyork.jpg" class="d-block w-100" alt="city sky line">
-                                <div class="carousel-caption d-none d-md-block">
+                                <div class="carousel-caption d-none d-block">
                                     <h3>New York</h3>
                                     <p>25 January 2020</p>
                                 </div>
@@ -80,24 +79,35 @@
                             </a>
                         </div>
             </div>
-            <div class="col-lg-4 col-sm-12">
+<!-------------------------------------------------------------------------------------booking form--------------------------------------------------------------------------------------------->
+            <div class="col-lg-8 col-sm-12">
                 <h2>Bookings</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Eius esse velit excepturi consequuntur pariatur alias culpa voluptates autem inventore.
-                        Explicabo unde perspiciatis incidunt aut dolore quaerat voluptatem culpa, esse eius.
-                        
-                    <p>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Concert</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Seattle</option>
+                                    <option>San Francisco</option>
+                                    <option>New York</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect2">Tickets</label>
+                                <select class="form-control" id="exampleFormControlSelect2">
+                                    <option>General Admission</option>
+                                    <option>V.I.P</option>
+                                    <option>Reserved Seating</option>
+                                </select>
+                            </div>
+                            <button type="button" class="btn btn-lg">Book Me Now</button>
+                        </div>
+                    </form>
             </div>
-            <div class="col-lg-4 col-sm-12">
-                <h2>Special</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Eius esse velit excepturi consequuntur pariatur alias culpa voluptates autem inventore.
-                        Explicabo unde perspiciatis incidunt aut dolore quaerat voluptatem culpa, esse eius.
-                        
-                    <p>
-            </div>
+        
         </div>
     </div>
 <!------------------------------------------------------------------------footer---------------------------------------------------------------------------------------------------->

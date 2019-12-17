@@ -6,9 +6,10 @@ body{
 }
 
 h1{
-    color: red;
+    color:#f2ebeb;
     font-family: "metal mania";
     font-size: 100px;
+    opacity: 0.75;
 }
 
 .navback{
@@ -24,6 +25,10 @@ h1{
 
 .navbar .navbar-brand:hover{
     color: red;
+}
+
+.navbar .navbar-nav{
+    margin-right: 0;
 }
 
 .navbar .nav-item .nav-link{
@@ -77,13 +82,16 @@ p{
     height: 50vh;
     background-size:cover;
     width: 100vw ;
+    background-position: center;
 }
 
-.top-image-tour{
+ /*.top-image-tour{
     background-image: url(/assets/img/tour.jpg);
     height: 50vh;
     background-size:cover;
-    width: 100vw ;
+    width: 100vw;
+    background-repeat:no-repeat;
+    background-position: center;*/
 }
 
 .top-image-merch{
@@ -104,6 +112,7 @@ background-color:#777;
 
 ul{
 margin: 0 auto;
+padding: 0;
 }
 
 ul li{
@@ -120,3 +129,30 @@ transition: color 0.5s ease-in-out;
 ul li i:hover{
     color: red;
 }
+
+.btn{
+    background-color:none;
+    color: #777;
+    border: 0;
+    
+}
+
+.btn:hover{
+    color: red;
+    transition: color 0.5s ease-in-out;
+}
+
+/*.logo{
+    background: url("../img/tour.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;*/
+}
+
+.repo{
+    height:50vh;
+}
+
+
+
