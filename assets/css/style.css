@@ -52,7 +52,7 @@ h2{
 }
 
 h3{
-    color: yellow;
+    color: #f2ebeb;;
 }
 
 h4{
@@ -79,13 +79,27 @@ p{
     width: 100vw ;
 }
 
+.top-image-tour{
+    background-image: url(/assets/img/tour.jpg);
+    height: 50vh;
+    background-size:cover;
+    width: 100vw ;
+}
+
+.top-image-merch{
+    background-image: url(/assets/img/merch.jpg);
+    height: 50vh;
+    background-size:cover;
+    width: 100vw ;
+}
+
 
 .center-image{
     background-image: url(/assets/img/ban.jpg);
 }
 
 .footer{
-background-color: #777;
+background-color:#777;
 }
 
 ul{

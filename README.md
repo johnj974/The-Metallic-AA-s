@@ -8,3 +8,7 @@ Happy coding!
 
 band.jpg photo: david yu pexels.com
 band2.jpg photo: thibault trillet pexels.com
+jonathan borba pexels.com merch
+collis pexels.com tour
+burst san fran 
+new york vinta supply company
