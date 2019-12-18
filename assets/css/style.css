@@ -6,10 +6,11 @@ body{
 }
 
 h1{
-    color:#f2ebeb;
+    color:#777;
     font-family: "metal mania";
-    font-size: 100px;
-    opacity: 0.75;
+    font-size: 150px;
+    text-align: center;
+    margin-top: 5%;
 }
 
 .navback{
@@ -75,6 +76,7 @@ h6{
 p{
     letter-spacing: 3px;
     padding: 20px;
+    font-family: "Roboto";
 }
 
 .top-image{
@@ -85,13 +87,13 @@ p{
     background-position: center;
 }
 
- /*.top-image-tour{
+ .top-image-tour{
     background-image: url(/assets/img/tour.jpg);
     height: 50vh;
     background-size:cover;
     width: 100vw;
     background-repeat:no-repeat;
-    background-position: center;*/
+    background-position: center;
 }
 
 .top-image-merch{
@@ -154,5 +156,21 @@ ul li i:hover{
     height:50vh;
 }
 
+.btn .btn-lg{
+    padding-left: 40%;
+}
 
+#album li{
+    color:#212529;
+    letter-spacing: 2px;
+    padding: 5px;
+    font-size: 16px;
+    display: block;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+#album{
+    margin-top:20px;
+}
 
