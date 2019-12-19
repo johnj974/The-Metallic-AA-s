@@ -210,9 +210,7 @@ ul li i:hover{
     color:#f2ebeb;
 }
 
-.tour .custom-select{
-    margin-bottom: 10px;
-}
+
 
 .tour .btn{
     background-color: #777;
@@ -243,5 +241,11 @@ ul li i:hover{
     color:#000000;
 }
 
+.merch .form-row{
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top:10px;
+}
 
 
