@@ -106,6 +106,8 @@ p{
 .member-image{
     background-image: url(/assets/img/membership.jpg);
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -188,4 +190,26 @@ ul li i:hover{
     font-size: 20px;
     font-family: "Roboto";
 }
+
+.form-control{
+    background-color:#777;
+    opacity: 0.5;
+}
+
+.btn-member{
+    background-color:#777;
+    opacity: 0.5;
+}
+
+.btn-member:hover{
+    background-color:red;
+    opacity: 1;
+    transition: color 0.5s ease-in-out;
+    color:#f2ebeb;
+}
+
+.tour .custom-select{
+    margin-bottom: 10px;
+}
+
 
