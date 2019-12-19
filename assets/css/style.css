@@ -3,6 +3,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family:"Roboto";
 }
 
 h1{
@@ -104,7 +105,7 @@ p{
 }
 
 .member-image{
-    background-image: url(/assets/img/membership.jpg);
+    background-image: url(/assets/img/hands.jpg);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -218,6 +219,16 @@ ul li i:hover{
 }
 
 .tour .btn:hover{
+    color: red;
+    transition: color 0.5s ease-in-out;
+}
+
+.merch .btn{
+    background-color: #777;
+    color:#f2ebeb;
+}
+
+.merch .btn:hover{
     color: red;
     transition: color 0.5s ease-in-out;
 }
