@@ -189,6 +189,8 @@ ul li i:hover{
     font-weight: bold;
     font-size: 20px;
     font-family: "Roboto";
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .form-control{
@@ -211,5 +213,16 @@ ul li i:hover{
 .tour .custom-select{
     margin-bottom: 10px;
 }
+
+.tour .btn{
+    background-color: #777;
+    color:#f2ebeb;
+}
+
+.tour .btn:hover{
+    color: red;
+    transition: color 0.5s ease-in-out;
+}
+
 
 
