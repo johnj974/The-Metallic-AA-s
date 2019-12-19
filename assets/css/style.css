@@ -80,7 +80,7 @@ p{
 }
 
 .top-image{
-    background-image: url(/assets/img/band3.jpg);
+    background-image: url(/assets/img/band.jpg);
     height: 50vh;
     background-size:cover;
     width: 100vw ;
@@ -88,12 +88,12 @@ p{
 }
 
  .top-image-tour{
-    background-image: url(/assets/img/tour.jpg);
+    background-image: url(/assets/img/tour3.jpg);
     height: 50vh;
     background-size:cover;
     width: 100vw;
     background-repeat:no-repeat;
-    background-position: center;
+    background-position: bottom;
 }
 
 .top-image-merch{
@@ -101,6 +101,11 @@ p{
     height: 50vh;
     background-size:cover;
     width: 100vw ;
+}
+
+.member-image{
+    background-image: url(/assets/img/membership.jpg);
+    height: 100vh;
 }
 
 
@@ -144,13 +149,6 @@ ul li i:hover{
     transition: color 0.5s ease-in-out;
 }
 
-/*.logo{
-    background: url("../img/tour.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;*/
-}
 
 .repo{
     height:50vh;
@@ -172,5 +170,22 @@ ul li i:hover{
 
 #album{
     margin-top:20px;
+}
+
+.center-image .membership {
+    color: #777;
+    text-decoration: none;
+}
+
+.center-image .membership:hover{
+    color:red;
+    transition: color 0.5s ease-in-out
+}
+
+.member-form{
+    color: #777;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Roboto";
 }
 
