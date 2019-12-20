@@ -169,6 +169,7 @@ ul li i:hover{
     display: block;
     font-family: "Roboto";
     text-align: center;
+    margin-left: 0px;
 }
 
 #album{
@@ -214,8 +215,9 @@ ul li i:hover{
 
 
 .tour .btn{
-    background-color: #777;
-    color:#f2ebeb;
+    background-color:none;
+    color:#777;
+    font-weight: 500;
 }
 
 .tour .btn:hover{
@@ -224,8 +226,9 @@ ul li i:hover{
 }
 
 .merch .btn{
-    background-color: #777;
-    color:#f2ebeb;
+    background-color:none;
+    color:#777;
+    font-weight: 500;
 }
 
 .merch .btn:hover{
