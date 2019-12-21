@@ -49,6 +49,7 @@ body{
     background-size:cover;
     width: 100vw ;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
  .top-image-tour{
@@ -61,10 +62,11 @@ body{
 }
 
 .top-image-merch{
-    background-image: url(../img/merch.jpg);
+    background-image: url(../img/merch2.jpg);
     height: 50vh;
     background-size:cover;
     width: 100vw ;
+    background-repeat:no-repeat;
 }
 
 .member-image{
