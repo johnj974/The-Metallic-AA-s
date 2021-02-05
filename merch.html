@@ -25,7 +25,7 @@
   </head>
   <!---------------------------------------------------------------------navbar-------------------------------------------------------------------------------------------------------->
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark navback">
+    <nav class="navbar navbar-expand-lg navbar-dark navback py-4">
       <a class="navbar-brand" href="index.html">The Metallic AA's</a>
       <button
         class="navbar-toggler"
@@ -49,7 +49,7 @@
         </ul>
       </div>
     </nav>
-    <!------------------------------------------------------------------------head----------------------------------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------main image----------------------------------------------------------------------------------------------------->
     <div class="container-fluid top-image-merch"></div>
     <!----------------------------------------------------------------------middle merchandise------------------------------------------------------------------------------------------------------>
     <div class="container-fluid center-image">
@@ -58,7 +58,7 @@
           <h2>The Goods</h2>
           <div
             id="carouselExampleCaptions"
-            class="carousel slide"
+            class="carousel slide pt-4"
             data-ride="carousel"
           >
             <ol class="carousel-indicators">
@@ -132,20 +132,17 @@
           </div>
         </div>
         <!-------------------------------------------------------------------------------------------Order forms-------------------------------------------------------------------------------------------------->
-        <div class="col-lg-8 col-sm-12 mt-3">
+        <div class="col-lg-8 col-sm-12 mt-3 px-4">
           <h2>Orders</h2>
           <form class="merch">
             <div class="form-row">
-              <div class="form-group">
+              <div class="form-group pt-4">
                 <select class="custom-select" required>
                   <option value="">Products</option>
                   <option value="1">Band T-Shirt</option>
                   <option value="2">Album</option>
                   <option value="3">Baseball hat</option>
                 </select>
-                <div class="invalid-feedback">
-                  Example invalid custom select feedback
-                </div>
               </div>
               <div class="form-group">
                 <select class="custom-select" required>
@@ -157,9 +154,6 @@
                   <option value="5">Justice For Some</option>
                   <option value="6">The Blaa Album</option>
                 </select>
-                <div class="invalid-feedback">
-                  Example invalid custom select feedback
-                </div>
               </div>
               <div class="form-group">
                 <select class="custom-select" required>
@@ -168,11 +162,10 @@
                   <option value="2">Two</option>
                   <option value="3">Three</option>
                 </select>
-                <div class="invalid-feedback">
-                  Example invalid custom select feedback
-                </div>
               </div>
-              <button class="btn btn-block" type="submit">Place Order</button>
+              <button class="btn btn-block mt-5" type="submit">
+                Place Order
+              </button>
             </div>
           </form>
         </div>

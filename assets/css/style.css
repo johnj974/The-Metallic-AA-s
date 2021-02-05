@@ -47,29 +47,26 @@ body {
   background-image: url(../img/band.jpg);
   height: 50vh;
   background-size: cover;
-  width: 100vw;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  overflow-y: hidden;
 }
 
 .top-image-tour {
   background-image: url(../img/tour3.jpg);
   height: 50vh;
   background-size: cover;
-  width: 100vw;
+  width: 100%;
   background-repeat: no-repeat;
   background-position: bottom;
-  overflow-y: hidden;
 }
 
 .top-image-merch {
   background-image: url(../img/merch2.jpg);
   height: 50vh;
   background-size: cover;
-  width: 100vw;
+  width: 100%;
   background-repeat: no-repeat;
-  overflow-y: hidden;
 }
 
 .member-image {
@@ -77,14 +74,6 @@ body {
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.center-image .membership {
-  color: #777;
-  text-decoration: none;
-  animation-name: colorChange;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
 }
 
 /*--------------------------------------------------------------------------text------------------------------------------------------------------------------------------------*/
@@ -114,6 +103,14 @@ p {
   padding: 20px;
   font-family: "Roboto";
   text-align: center;
+}
+
+.center-image .membership {
+  color: #777;
+  text-decoration: none;
+  animation-name: colorChange;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
 
 .copyright {
@@ -259,7 +256,7 @@ ul li i:hover {
 
 .footer {
   background-color: #777;
-  height: 120px;
+  height: 140px;
   margin-top: 50px;
 }
 
