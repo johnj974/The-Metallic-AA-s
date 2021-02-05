@@ -255,15 +255,23 @@ ul li i:hover {
   transition: color 0.5s ease-in-out;
 }
 
+/* -----------------------------------------------footer------------------------------------------------- */
+
 .footer {
   background-color: #777;
   height: 120px;
   margin-top: 50px;
 }
+
+.memberFooter {
+  background-color: #777;
+  height: 120px;
+}
 /* -------------------------------------------------media------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
-  .footer span {
+  .footer span,
+  .memberFooter span {
     display: none;
   }
 }

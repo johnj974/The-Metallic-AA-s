@@ -1,84 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>The Metallic AA's</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" type="text/css" rel="stylesheet">
-<link href="assets/css/style.css" type="text/css" rel="stylesheet">
-</head>
-<!---------------------------------------------------------------------Navbar-------------------------------------------------------------------------------------------------------->
-<body>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <!---------------------------------------------------------------------Navbar-------------------------------------------------------------------------------------------------------->
+  <body>
     <nav class="navbar navbar-expand-lg navbar-dark navback">
-        <a class="navbar-brand" href="index.html">The Metallic AA's</a>
+      <a class="navbar-brand" href="index.html">The Metallic AA's</a>
     </nav>
-<!--------------------------------------------------------------------------------head------------------------------------------------------------------------------------------->
+    <!--------------------------------------------------------------Main Body------------------------------------------------------------------------------------------->
     <div class="container-fluid member-image">
-        <div class="row">
-    </div>
-        <div>
-            <form class="member-form">
-                <div class="form-row">
-                    <div class="col-12">
-                        <label for="validationDefault01">First name</label>
-                        <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
-                    </div>
-                    <div class="col-12">
-                        <label for="validationDefault02">Last name</label>
-                        <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
-                    </div>
-                    <div class="col-12">
-                        <label for="validationDefaultUsername">Username</label>
-                        <div class="input-group">
-                        <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                    </div>
-                            <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
-                        </div>
-                        </div>
-                        </div>
-                    <div class="form-row">
-                        <div class="col-12">
-                            <label for="validationDefault03">City</label>
-                            <input type="text" class="form-control" id="validationDefault03" required>
-                        </div>
-                        <div class="col-12">
-                            <label for="validationDefault04">State</label>
-                            <select class="custom-select" id="validationDefault04" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option>A State Of Shock!!</option>
-                            </select>
-                        </div>
-                        <div class="col-12">
-                            <label for="validationDefault05">Zip</label>
-                            <input type="text" class="form-control" id="validationDefault05" required>
-                         </div>
-                    </div>
-                    <div class="form-group">
-                        
+      <div class="pt-5">
+        <form class="member-form">
+          <div class="form-row">
+            <div class="col-12">
+              <label for="validationDefault01">First name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault01"
+                value="Mark"
+                required
+              />
+            </div>
+            <div class="col-12">
+              <label for="validationDefault02">Last name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault02"
+                value="Otto"
+                required
+              />
+            </div>
+            <div class="col-12">
+              <label for="validationDefaultUsername">Username</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroupPrepend2"
+                    >@</span
+                  >
                 </div>
-                        <button class="btn-member btn-lg btn-block" type="submit">Join The Gang</button>
-            </form>
-        </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationDefaultUsername"
+                  aria-describedby="inputGroupPrepend2"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-12">
+              <label for="validationDefault03">City</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault03"
+                required
+              />
+            </div>
+            <div class="col-12">
+              <label for="validationDefault04">State</label>
+              <select class="custom-select" id="validationDefault04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>A State Of Shock!!</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <label for="validationDefault05">Zip</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault05"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group"></div>
+          <button class="btn-member btn-lg btn-block mt-4" type="submit">
+            Join The Gang
+          </button>
+        </form>
+      </div>
     </div>
- 
-    
-<!------------------------------------------------------------------------footer---------------------------------------------------------------------------------------------------->
-    <div class="container-fluid footer">
-        <div class="row">
-                <ul>
-                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                </ul>
-        </div>
+
+    <!------------------------------------------------------------------------footer---------------------------------------------------------------------------------------------------->
+    <div class="container-fluid memberFooter">
+      <div class="row">
+        <ul class="mt-5">
+          <li>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a><span>Copyright: Metallic AA's</span></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/" target="_blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
     </div>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
